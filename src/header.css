@@ -1,0 +1,126 @@
+:root {
+    --primary: #d81e5b;
+    --secondary: #8c38ff;
+    --dark: #131a26;
+    --light: #eee;
+  }
+
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+.header-wrapper {
+    width: 1000px;
+    height: inherit;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 400px;
+    height: inherit;
+    text-align: right;
+    font-size: 30px;
+    padding-top: 15px;
+    float: left;
+}
+
+.logo img {
+    float: left;
+}
+
+.logo p {
+    float: right;
+}
+
+nav {
+    width: 500px;
+    height: inherit;
+    color: var(--light);
+    text-align: center;
+    float: right;
+    padding-top: 25px;
+}
+
+
+nav a, a {
+    color: inherit;
+    text-decoration: none;
+    margin: 0px 20px 0px 20px;
+    font-size: 20px;
+}
+  
+nav a, a {
+    background:
+      linear-gradient(
+        to right,
+        rgba(100, 200, 200, 1),
+        rgba(100, 200, 200, 1)
+      ),
+      linear-gradient(
+        to right,
+        rgba(255, 0, 0, 1),
+        rgba(255, 0, 180, 1),
+        rgba(0, 100, 200, 1)
+    );
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+    transition: 0.2s ease-in-out;
+  }
+  
+ nav a:hover, a:hover {
+    background-size: 0 3px, 100% 3px;
+    color: var(--primary);
+  }
+
+  .about {
+    width: 100%;
+    height: 300px;
+    background-color: var(--dark);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    font-size: 20px;
+}
+
+.about-wrapper {
+    width: 1000px;
+    height: inherit;
+    margin: 0 auto;
+    background-color: transparent;
+    color: var(--light);
+}
+
+.item {
+    width: 450px;
+    height: inherit;
+    float: left;
+    text-align: justify;
+    padding-top: 20px;
+}
+
+.gh-icon {
+    width: 450px;
+    height: 300px;
+    color: --light;
+    float: right;
+}
+
+img {
+    transition: transform .7s ease-in-out;
+}
+
+img:hover {
+    transform: rotate(360deg);
+    cursor: pointer;
+  }
+
+a {
+    margin: 0px 2px 0px 2px !important;
+}
+  
