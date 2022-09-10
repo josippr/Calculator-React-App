@@ -1,5 +1,6 @@
 # React Calculator App version 1.1
 [Removed styling bugs & typos, now app should be bug free]
+----------------------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
